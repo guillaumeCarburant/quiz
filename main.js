@@ -114,7 +114,7 @@ Hull.component('quiz', {
     var _ = this.sandbox.util._;
     var questions = (this.questions || []).slice(0);
     if (this.options.sampleQuestions > 0) {
-      questions = _.sample(questions, 10);
+      questions = _.sample(questions, this.options.sampleQuestions);
     }
     var index = 0;
     return _.map(questions, function(q) {
