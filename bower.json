@@ -1,0 +1,23 @@
+{
+  "name": "hull-components-quiz",
+  "version": "0.0.1",
+  "authors": [
+    "stephane@hull.io"
+  ],
+  "description": "A complete Quiz engine for Hull.",
+  "main": "main.js",
+  "keywords": [
+    "hull",
+    "game",
+    "quiz"
+  ],
+  "license": "MIT",
+  "homepage": "http://hull.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
